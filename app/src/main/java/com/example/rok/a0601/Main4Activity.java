@@ -58,7 +58,7 @@ public class Main4Activity extends AppCompatActivity {
                 handler.post(new Runnable() {
                     @Override
                     public void run() {
-                        if(result.equals("FAIL")){
+                        if(result.equals("FAIL\n")){
                             msg.setText("로그인이 실패했습니다");
                         }
                         else{
